@@ -1,0 +1,31 @@
+Hola amigos un saludo de mi parte lo que tendra que hacer es poner el archivo MSCOMCTL.OCX
+
+en la carpeta depende de su ordenador si es de 32 bits o 86 que es lo mismo se iran a esta ruta 
+
+o como veran en el video C:\Windows\System32
+
+pero si es de 64 se iran a esta C:\Windows\System32SysWOW64
+
+y pegaran el archivo alli :)
+
+abran el simbolo de sitema o CMD  como veran en el video
+ 
+y pondran los comandos segun sus bits
+
+de 32 o 86 es: regsvr32 c:\windows\System32\MSCOMCTL.OCX
+
+de 64 : regsvr32 c:\windows\Syswow64\MSCOMCTL.OCX
+
+y a enter y se registrara y eso fue todo :) bueno que esten bien 
+
+saludos desde venezuela ;) :)....
+
+
+regsvr32 c:\windows\Syswow64\msstkprp.dll
+regsvr32 c:\windows\Syswow64\mscomctl.ocx
+regsvr32 c:\windows\Syswow64\mscomct2.ocx
+
+
+regsvr32 c:\windows\System32\msstkprp.dll
+regsvr32 c:\windows\System32\mscomctl.ocx
+regsvr32 c:\windows\System32\mscomct2.ocx
